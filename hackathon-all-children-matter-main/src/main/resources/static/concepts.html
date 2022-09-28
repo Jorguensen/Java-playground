@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css" modelType="text/css"/>
+    <title>Concepts</title>
+</head>
+<body>
+
+<h1 id="concepts">Concepts</h1>
+<p>1) Programming Languages - JavaScript
+    <br>
+    A programming language is an artificial language that can be used to control the behaviour of a machine, particularly a computer. Programming languages, like human languages, are defined through the use of syntactic and semantic rules, to determine structure and meaning respectively.
+    <br>
+    The programming language we will be using throughout this course is JavaScript! Simply put JavaScript - aka the Cool Uncle - is a popular programming language for adding interactive functionality and other dynamic web content to web pages.</p>
+<br>
+<p>
+    2) Data Types and Variables
+    <br>
+    -Number-
+    <br>A number is a data type used to represent and manipulate numbers like 37 or -9.25.
+
+    <br>
+    -String-<br>
+    A string is a data type used to represent text rather than numbers. It consists of a set of characters that can also contain spaces and numbers. For example, the word "hamburger" and the phrase "I ate 3 hamburgers" are both strings. Even "12345" could be considered a string, if enclosed in quotation marks…
+
+    <br>
+    -Boolean-
+    <br>A boolean is - you guessed it - a data type used for creating true/false statements. Boolean expressions use operators such as AND (&&), OR(||) and NOT(!) to compare values and return a true or false result. These boolean operators are described in the following four examples:
+
+    <br>
+    x && y - returns True if both x and y are true; returns False if either x or y are false.
+    <br>x || y - returns True if either x or y, or both x and y are true; returns False only if x and y are both false.
+    <br>! x - returns True if x is false (or null); returns False if x is true.
+    <br>
+</p>
+
+<p> -Variables-<br>
+    A variable is a named reference to a value. That way an unpredictable value can be accessed through a predetermined name. In JavaScript a variable is written (aka declared) using the keyword var.
+    <br>Below you can find examples of variables that store different data types:
+    <br>
+    var age = 7;
+    var name = “Sandrita”;
+    var isAGirl = true;
+    <br>
+</p>
+
+
+<p> 3) Arrays
+    <br>An array is a data structure that contains a group of elements. Typically these elements are all of the same data type, such as numbers or strings. Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched.
+
+    <br>Please see below an example of an array which stores data of the type string in JavaScript:
+
+    <br>
+    var cuteCreatures = [“Unicorn” , “Pony” , “Code Cadet” ,“Cat”];
+    <br>
+</p>
+
+<p>
+    4) Loops<br>
+    A loop is a programming structure that repeats a sequence of instructions until a specific condition is met. Programmers use loops to cycle through values, add sums of numbers, repeat functions, and many other things.
+
+    <br>A for loop, as used in JavaScript, has the following structure:
+
+    <br>for (initialExpression; condition; updateExpression) {
+    <br>// for loop body
+    <br>}
+
+    Please take a look at this practical example:
+    <br>
+    var dailyNumberOfBeatings = [5 , 4 , 8 , 2 , 6 , 5 , 7];
+    <br>
+    for (var i = 0 ; i < dailyNumberOfBeatings.length ; i++) {
+    <br>console.log(dailyNumberOfBeatings[i]);
+    <br>}
+    <br>
+</p>
+
+<p> 5) Functions<br>
+    Functions are "self contained" modules of code that accomplish a specific task. Functions usually "take in" data, process it, and "return" a result. Once a function is written, it can be used over and over and over again!! Functions can then be "called" as many times as needed.
+    <br>
+    Below is one of the ways to write (aka declare) a function in JavaScript:
+    <br>
+    function name(parameter1, parameter2) {
+    <br>// code to be executed
+    <br>}
+
+    A practical example could be:
+    <br>
+    function myFunction(hoursCodingPerDay, numberOfDays) {
+    <br>return hoursCodingPerDay * numberOfDays;   // The function returns the product of p1(hoursCodingPerDay) and p2(numberOfDays).
+    <br>}
+</p>
+<p id="conceptBottom">
+    Any questions? Just waste some precious time on Google, like the rest of us!
+</p>
+
+<a href ="/string"><button> Play again! </button></a>
+
+</body>
+</html>
